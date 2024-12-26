@@ -1,8 +1,10 @@
+
+
 .container{
     height: 400px;
     width: 400px;
     margin: auto;
-/*     border: 1px solid blue; */
+    border: 1px solid blue;
     background: url(./watch_image.png);
     background-size: cover;
     background-position: center,center;
@@ -25,7 +27,7 @@
     margin-left: 196.5px;
     margin-top: 98px;
     border-radius: 5px;
-    
+    z-index: 5;
     /* display: none; */
 }
 
@@ -36,6 +38,7 @@
     margin-left: 197.6px;
     margin-top: 76.5px;
     border-radius: 5px;
+    z-index: 7;
     /* display: none; */
 }
 
@@ -46,6 +49,7 @@
     margin-left: 198.7px;
     margin-top: 64px;
     border-radius: 5px;
+    z-index: 10;
     /* display: none; */
 }
 
